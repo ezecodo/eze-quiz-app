@@ -1,5 +1,4 @@
 * {
-  text-align: center;
   margin: o;
   padding: 0;
   background-color: white;
@@ -10,6 +9,7 @@
   width: 400px;
   height: 570px;
   background-color: rgb(67, 178, 146);
+  border-radius: 10px;
   border-color: aqua;
   border-style: double;
 }
@@ -20,13 +20,15 @@
   font-family: monospace;
   color: rgb(3, 8, 8);
 }
+.box-tittle h1 {
+  text-overflow: ellipsis;
+}
 
 .container {
   position: relative;
   margin: auto;
-
   width: 370px;
-  height: 460px;
+  height: 80%;
   background-color: rgb(68, 194, 229);
 }
 
