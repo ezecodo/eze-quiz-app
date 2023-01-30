@@ -41,6 +41,11 @@
   border-radius: 5px;
   background-color: beige;
 }
+.bookmark {
+  width: 13%;
+  position: relative;
+  margin-left: 87%;
+}
 .footer {
   position: relative;
   margin: auto;
