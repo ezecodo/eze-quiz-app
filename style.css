@@ -32,6 +32,14 @@
   background-color: rgb(68, 194, 229);
 }
 
+.quizbox {
+  position: absolute;
+  margin: 10px;
+  margin-top: 100px;
+  width: 350px;
+  height: 350px;
+  border-radius: 5px;
+}
 .footer {
   position: relative;
   margin: auto;
