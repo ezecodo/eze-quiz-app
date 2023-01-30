@@ -39,6 +39,11 @@
   width: 350px;
   height: 350px;
   border-radius: 5px;
+  background-color: beige;
+}
+.bmoff {
+  width: 10%;
+  margin-left: 90%;
 }
 .footer {
   position: relative;
