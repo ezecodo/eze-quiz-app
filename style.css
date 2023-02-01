@@ -5,10 +5,10 @@
 }
 
 .header {
-  background-color: coral;
+  background-color:aqua;
   position; center;
   width: 70%;
-  height: 70px;
+  height: 90px;
 }
 
 .title {
@@ -23,7 +23,7 @@
   list-style: none;
   justify-content: space-around;
   display: flex;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
 .homepage {
@@ -43,7 +43,7 @@
 
 .question-box {
   border: red 1px;
-  background-color: coral;
+  background-color:aqua;
   display: flex;
   justify-content: center;
   align-items: center;
