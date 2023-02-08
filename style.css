@@ -1,67 +1,42 @@
- {
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 .header {
-  background-color:aqua;
-  position; center;
-  width: 70%;
+  background-color: aqua;
+  border-style: groove;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 30%;
+  margin-bottom: 20px;
+  width: 40%;
   height: 90px;
 }
 
 .title {
   font-size: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;q
+  text-align: center;
 }
 
-
-.nav {
-  color: snow;
-  list-style: none;
-  justify-content: space-around;
-  display: flex;
-  margin-top: 30px;
+.cards-grid {
+  display: grid;
 }
-
-.homepage {
-  width: 70px;
-  height: auto;
-}
-
-.bookmark {
-  width: 40px;
-  height: auto;
-}
-
-.profile {
-  width: 40px;
-  height: auto;
-}
-
 .question-box {
-  border: red 1px;
-  background-color:aqua;
+  position: relative;
   display: flex;
+  border-style: groove;
+  background-color: aqua;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 50px;
-  margin-bottom: 100px;
-  width: auto;
+  margin-top: 30px;
+  margin-left: 30%;
+  margin-bottom: 20px;
+  width: 40%;
   height: 300px;
-  position: relative;
-}
-
-.bookmark {
-  width: 50px; 
-  height: auto;
-  position: absolute;
-  right: 0;
-  top: 0;
-  
 }
 
 .question {
@@ -73,7 +48,7 @@
 }
 
 .answer {
-  background-color:black;
+  background-color: black;
   border: none;
   color: white;
   padding: 15px 28px;
@@ -83,22 +58,55 @@
 
 .answer:hover {
   padding: 20px 32px;
-  color:aqua;
+  color: aqua;
 }
 
 .hashtags {
   display: flex;
   gap: 2px;
   list-style: none;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   left: 10%;
   bottom: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: coral;
 }
-
 .hashtag-item {
   background-color: aquamarine;
   padding: 7px 14px;
+}
+
+.bookmark {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  margin-top: -2em;
+  right: 0;
+  top: 0;
+}
+
+.footer-div {
+  position: sticky;
+  bottom: 0;
+  border-style: groove;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 30%;
+  width: 40%;
+  height: 70px;
+  background-color: aqua;
+}
+
+.footer-div div {
+}
+
+.button--bookmark {
+  width: 50px;
+  height: 80%;
 }
