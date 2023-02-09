@@ -95,10 +95,10 @@
 }
 
 .bookmark {
-  width: 50px;
+  width: 40px;
   height: auto;
   position: absolute;
-  margin-top: -2em;
+  margin-top: -2%;
   right: 0;
   top: 0;
 }
@@ -135,4 +135,12 @@
   width: 30%;
   border-radius: 10px;
   left: 10px;
+}
+
+.bookmark-on {
+  content: url(/img/bookmarkON.svg);
+}
+
+.bookmark-off {
+  content: url(/img/bookmark_OFF.svg);
 }
