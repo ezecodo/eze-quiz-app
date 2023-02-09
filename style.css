@@ -63,6 +63,10 @@
   margin-bottom: 40px;
 }
 
+.answer--hidden {
+  display: none;
+}
+
 .answer {
   background-color: black;
   border: none;
@@ -75,6 +79,17 @@
 .answer:hover {
   padding: 20px 32px;
   color: aqua;
+}
+
+.answer-box {
+  font-size: 25px;
+  border-style: dotted;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  font-style: italic;
+  border: 3px solid black;
+  width: 100px;
 }
 
 .hashtags {
@@ -92,6 +107,10 @@
 .hashtag-item {
   background-color: aquamarine;
   padding: 7px 14px;
+}
+
+.change-bookmark {
+  content: url(/img/bookmark_OFF.svg);
 }
 
 .bookmark {
