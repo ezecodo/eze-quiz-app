@@ -5,10 +5,11 @@
 }
 
 .header {
+  position: sticky;
+  top: 0;
   background-color: aqua;
   border-style: groove;
   padding-top: 20px;
-  margin-top: 20px;
   margin-left: 30%;
   margin-bottom: 20px;
   width: 40%;
@@ -23,6 +24,21 @@
 
 .cards-grid {
   display: grid;
+}
+
+.profile--card {
+  position: relative;
+  display: flex;
+  border-style: groove;
+  background-color: aqua;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 30%;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  width: 40%;
+  height: 550px;
 }
 .question-box {
   position: relative;
@@ -109,4 +125,18 @@
 .button--bookmark {
   width: 50px;
   height: 80%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: inherit;
+}
+
+.profile--pic {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 30%;
+  border-radius: 10px;
+  left: 10px;
 }
