@@ -119,9 +119,6 @@
   background-color: aqua;
 }
 
-.footer-div div {
-}
-
 .button--bookmark {
   width: 50px;
   height: 80%;
@@ -130,7 +127,6 @@
 .profile {
   display: flex;
   flex-direction: row;
-  flex-shrink: inherit;
 }
 
 .profile--pic {
